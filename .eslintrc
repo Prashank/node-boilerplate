@@ -1,0 +1,26 @@
+{
+    "plugins": [
+        "babel"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "globals": {
+        "module": true,
+        "require": true,
+        "Symbol": true
+    },
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "rules": {}
+}
